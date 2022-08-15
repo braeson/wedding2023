@@ -109,3 +109,9 @@ h3 {
         padding-top: 10vh;
     }
 }
+
+@media (hover: none) {
+    * {
+        color:red;
+    }
+}
