@@ -1,0 +1,111 @@
+* {
+    margin: 0; padding: 0;
+}
+
+body {
+    background-color: black;
+    z-index: -3;
+}
+
+#splash-bgnd {
+    background-image: url("https://i.redd.it/9x4ekshc8lh91.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position:right;
+    position: absolute;
+    z-index: -2;
+    opacity: .45;
+}
+
+#contentbox {
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top:35vh;
+}
+
+img {
+   object-fit:cover; 
+}
+
+h1,h2 {
+    color:white;
+}
+
+h1 {
+    font-family: 'Playfair Display',serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50;
+}
+
+h2 {
+    font-family: 'Radio Canada', sans-serif;
+    text-transform:uppercase;
+    font-weight: 300;
+    font-size:20;
+    opacity:.9;
+}
+
+#countdown {
+    font-family: 'Radio Canada', sans-serif;
+    color:white;
+    padding-top: 35vh;
+    font-weight:300;
+    text-transform: uppercase;
+    opacity: .8;
+}
+
+a {
+    font-family: 'Radio Canada', sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+    color:rgb(190, 190, 190);
+}
+
+#loctag {
+    height:20px;
+    width: auto;
+    padding-right: 10px;
+}
+
+#locale {
+    display:flex;
+    justify-content:center;
+    padding-top:25px;
+    opacity: .9;
+}
+
+h3 {
+    font-family: 'Radio Canada',serif;
+    text-transform:uppercase;
+    font-weight: 500;
+    font-size: 20;
+    color:white;
+}
+
+@media only screen and (max-height: 600px) {
+    #contentbox { 
+        padding-top: 20vh;
+    }
+
+    #countdown {
+        padding-top: 20vh;
+    }
+}
+
+@media only screen and (max-height: 300px) {
+    #contentbox { 
+        padding-top: 10vh;
+    }
+
+    #countdown {
+        padding-top: 10vh;
+    }
+}
