@@ -110,8 +110,31 @@ h3 {
     }
 }
 
+/* for phone */
 @media (hover: none) {
-    * {
-        color:red;
+    h1 {
+        font-size: 80;
+    }
+    h2 {
+        font-size: 30;
+    }
+    h3 {
+        font-size: 30;
+    }
+    #splash-bgnd {
+        background-position:center;
+    }
+    #loctag {
+        height: 30;
+    }
+    a {
+        font-size: 25;
+    }
+    #locale {
+        padding-top: 30;
+    }
+    #countdown {
+        padding-top:200;
+        font-size: 25;
     }
 }
